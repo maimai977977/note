@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Git基础 | maimaiのnote</title>
+    <meta name="generator" content="VuePress 1.9.9">
+    <link rel="icon" href="./favicon.ico">
+    <meta name="description" content="">
+    <meta name="anthor" content="maimai">
+    <meta name="Keywords" content="maimai">
+    
+    <link rel="preload" href="./assets/css/0.styles.d9d10bda.css" as="style"><link rel="preload" href="./assets/js/app.01ce0958.js" as="script"><link rel="preload" href="./assets/js/2.e5f6830a.js" as="script"><link rel="preload" href="./assets/js/10.5442a1f3.js" as="script"><link rel="prefetch" href="./assets/js/11.69ba4d44.js"><link rel="prefetch" href="./assets/js/12.a6a216e4.js"><link rel="prefetch" href="./assets/js/13.5dfd1ddc.js"><link rel="prefetch" href="./assets/js/14.4c142a9f.js"><link rel="prefetch" href="./assets/js/15.b7a863ee.js"><link rel="prefetch" href="./assets/js/16.a118e50c.js"><link rel="prefetch" href="./assets/js/17.6617978c.js"><link rel="prefetch" href="./assets/js/18.80d02e2a.js"><link rel="prefetch" href="./assets/js/19.ca0ff64b.js"><link rel="prefetch" href="./assets/js/20.4b423218.js"><link rel="prefetch" href="./assets/js/21.8b97689e.js"><link rel="prefetch" href="./assets/js/22.5b2d269e.js"><link rel="prefetch" href="./assets/js/23.cb69d296.js"><link rel="prefetch" href="./assets/js/24.3e65b3d7.js"><link rel="prefetch" href="./assets/js/25.af6695e6.js"><link rel="prefetch" href="./assets/js/26.ab125884.js"><link rel="prefetch" href="./assets/js/27.03530b2f.js"><link rel="prefetch" href="./assets/js/28.cdadce63.js"><link rel="prefetch" href="./assets/js/29.4d6196db.js"><link rel="prefetch" href="./assets/js/3.78820010.js"><link rel="prefetch" href="./assets/js/30.2cd45ac5.js"><link rel="prefetch" href="./assets/js/31.5fcdddd2.js"><link rel="prefetch" href="./assets/js/32.b9cd32fb.js"><link rel="prefetch" href="./assets/js/33.6d3933e4.js"><link rel="prefetch" href="./assets/js/34.935c277f.js"><link rel="prefetch" href="./assets/js/35.f443a60b.js"><link rel="prefetch" href="./assets/js/36.997f1266.js"><link rel="prefetch" href="./assets/js/37.b21ed427.js"><link rel="prefetch" href="./assets/js/38.e8659822.js"><link rel="prefetch" href="./assets/js/39.8ac3bbf6.js"><link rel="prefetch" href="./assets/js/4.d5d3c6a2.js"><link rel="prefetch" href="./assets/js/40.028bbcb3.js"><link rel="prefetch" href="./assets/js/41.9545266c.js"><link rel="prefetch" href="./assets/js/42.91b5d3e2.js"><link rel="prefetch" href="./assets/js/43.aba4c4fb.js"><link rel="prefetch" href="./assets/js/44.fbcb823c.js"><link rel="prefetch" href="./assets/js/45.7ef4f9da.js"><link rel="prefetch" href="./assets/js/46.597ee1cd.js"><link rel="prefetch" href="./assets/js/47.54182916.js"><link rel="prefetch" href="./assets/js/48.c3f7d0f1.js"><link rel="prefetch" href="./assets/js/49.820e3a69.js"><link rel="prefetch" href="./assets/js/5.0b682d79.js"><link rel="prefetch" href="./assets/js/50.64e5f8d1.js"><link rel="prefetch" href="./assets/js/51.93e7b42f.js"><link rel="prefetch" href="./assets/js/52.46fae0e2.js"><link rel="prefetch" href="./assets/js/6.2b8fd2df.js"><link rel="prefetch" href="./assets/js/7.5cc75e87.js"><link rel="prefetch" href="./assets/js/8.bb811972.js"><link rel="prefetch" href="./assets/js/9.cbb98e38.js">
+    <link rel="stylesheet" href="./assets/css/0.styles.d9d10bda.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/./" class="home-link router-link-active"><!----> <span class="site-name">maimaiのnote</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/./" class="nav-link">
+  😀Home
+</a></div><div class="nav-item"><a href="https://blog.maimaio.cn/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  😋MyBlog
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="Language Menu" class="dropdown-title"><span class="title">😍MyPage</span> <span class="arrow down"></span></button> <button type="button" aria-label="Language Menu" class="mobile-dropdown-title"><span class="title">😍MyPage</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="https://miyu.hkzmai.top/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  maimaiの密语
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li><li class="dropdown-item"><!----> <a href="https://alist.hkzmai.top/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  maimaiの云盘
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li><li class="dropdown-item"><!----> <a href="https://nav.hkzmai.top/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  maimaiの导航
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li><li class="dropdown-item"><!----> <a href="https://img.hkzmai.top/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  maimaiのAPI
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li></ul></div></div><div class="nav-item"><a href="https://blog.maimaio.cn/s/talk" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  😊留言
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/./" class="nav-link">
+  😀Home
+</a></div><div class="nav-item"><a href="https://blog.maimaio.cn/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  😋MyBlog
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="Language Menu" class="dropdown-title"><span class="title">😍MyPage</span> <span class="arrow down"></span></button> <button type="button" aria-label="Language Menu" class="mobile-dropdown-title"><span class="title">😍MyPage</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="https://miyu.hkzmai.top/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  maimaiの密语
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li><li class="dropdown-item"><!----> <a href="https://alist.hkzmai.top/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  maimaiの云盘
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li><li class="dropdown-item"><!----> <a href="https://nav.hkzmai.top/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  maimaiの导航
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li><li class="dropdown-item"><!----> <a href="https://img.hkzmai.top/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  maimaiのAPI
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li></ul></div></div><div class="nav-item"><a href="https://blog.maimaio.cn/s/talk" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  😊留言
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></div> <!----></nav>  <ul class="sidebar-links"><li><section class="sidebar-group collapsable depth-0"><a href="/./csss/" class="sidebar-heading clickable"><span>Css</span> <span class="arrow right"></span></a> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><a href="/./ccode/" class="sidebar-heading clickable"><span>C语言</span> <span class="arrow right"></span></a> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><a href="/./javascript/" class="sidebar-heading clickable"><span>javascript</span> <span class="arrow right"></span></a> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><a href="/./jquery/" class="sidebar-heading clickable"><span>jquery</span> <span class="arrow right"></span></a> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><a href="/./git/" class="sidebar-heading clickable router-link-active open"><span>git</span> <span class="arrow down"></span></a> <ul class="sidebar-links sidebar-group-items"><li><a href="/./git/07_git.html" class="sidebar-link">Git</a></li><li><a href="/./git/08_git基础.html" class="active sidebar-link">Git基础</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/./git/08_git基础.html#配置用户信息" class="sidebar-link">配置用户信息</a></li><li class="sidebar-sub-header"><a href="/./git/08_git基础.html#检查配置信息" class="sidebar-link">检查配置信息</a></li><li class="sidebar-sub-header"><a href="/./git/08_git基础.html#获取帮助信息" class="sidebar-link">获取帮助信息</a></li><li class="sidebar-sub-header"><a href="/./git/08_git基础.html#获取git仓库的两种方式" class="sidebar-link">获取Git仓库的两种方式</a></li><li class="sidebar-sub-header"><a href="/./git/08_git基础.html#在现有目录中初始化仓库" class="sidebar-link">在现有目录中初始化仓库</a></li><li class="sidebar-sub-header"><a href="/./git/08_git基础.html#工作区中文件的4种状态" class="sidebar-link">工作区中文件的4种状态</a></li><li class="sidebar-sub-header"><a href="/./git/08_git基础.html#检查文件的状态" class="sidebar-link">检查文件的状态</a></li><li class="sidebar-sub-header"><a href="/./git/08_git基础.html#以精简的方式显示文件状态" class="sidebar-link">以精简的方式显示文件状态</a></li><li class="sidebar-sub-header"><a href="/./git/08_git基础.html#跟踪新文件" class="sidebar-link">跟踪新文件</a></li><li class="sidebar-sub-header"><a href="/./git/08_git基础.html#提交更新" class="sidebar-link">提交更新</a></li><li class="sidebar-sub-header"><a href="/./git/08_git基础.html#对已提交的文件进行修改" class="sidebar-link">对已提交的文件进行修改</a></li><li class="sidebar-sub-header"><a href="/./git/08_git基础.html#暂存已修改的文件" class="sidebar-link">暂存已修改的文件</a></li><li class="sidebar-sub-header"><a href="/./git/08_git基础.html#提交已暂存的文件" class="sidebar-link">提交已暂存的文件</a></li><li class="sidebar-sub-header"><a href="/./git/08_git基础.html#撤销对文件的修改" class="sidebar-link">撤销对文件的修改</a></li><li class="sidebar-sub-header"><a href="/./git/08_git基础.html#向暂存区中一次性添加多个文件" class="sidebar-link">向暂存区中一次性添加多个文件</a></li><li class="sidebar-sub-header"><a href="/./git/08_git基础.html#取消暂存的文件" class="sidebar-link">取消暂存的文件</a></li><li class="sidebar-sub-header"><a href="/./git/08_git基础.html#跳过使用暂存区域" class="sidebar-link">跳过使用暂存区域</a></li><li class="sidebar-sub-header"><a href="/./git/08_git基础.html#移除文件" class="sidebar-link">移除文件</a></li><li class="sidebar-sub-header"><a href="/./git/08_git基础.html#忽略文件" class="sidebar-link">忽略文件</a></li><li class="sidebar-sub-header"><a href="/./git/08_git基础.html#glob模式" class="sidebar-link">glob模式</a></li><li class="sidebar-sub-header"><a href="/./git/08_git基础.html#gitignore文件的例子" class="sidebar-link">.gitignore文件的例子</a></li><li class="sidebar-sub-header"><a href="/./git/08_git基础.html#查看提交历史" class="sidebar-link">查看提交历史</a></li><li class="sidebar-sub-header"><a href="/./git/08_git基础.html#回退到指定的版本" class="sidebar-link">回退到指定的版本</a></li></ul></li><li><a href="/./git/08_git命令.html" class="sidebar-link">Git命令</a></li></ul></section></li><li><section class="sidebar-group collapsable depth-0"><a href="/./promise/" class="sidebar-heading clickable"><span>promise</span> <span class="arrow right"></span></a> <!----></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="在windows-中下载并安装git"><a href="#在windows-中下载并安装git" class="header-anchor">#</a> 在Windows 中下载并安装Git</h1> <p>在开始使用Git管理项目的版本之前，需要将它安装到计算机上。可以使用浏览器访问如下的网址，根据自己的操作系统，选择下载对应的Git安装包:
+<a href="https://git-scm.com/downloads" target="_blank" rel="noopener noreferrer">git<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></p> <h2 id="配置用户信息"><a href="#配置用户信息" class="header-anchor">#</a> 配置用户信息</h2> <p>安装完Git之后，要做的第一件事就是设置自己的用户名和邮件地址。因为通过Git对项目进行版本管理的时候，Git需要使用这些基本信息，来记录是谁对项目进行了操作:</p> <div class="language-bash extra-class"><pre class="language-bash"><code><span class="token function">git</span> config <span class="token parameter variable">--global</span> user.name <span class="token string">&quot;mai&quot;</span>
+<span class="token function">git</span> config <span class="token parameter variable">--global</span> user.email <span class="token string">&quot;9.qq.com&quot;</span>
+</code></pre></div><p>注意:如果使用了--global选项，那么该命令只需要运行一次，即可永久生效。</p> <h2 id="检查配置信息"><a href="#检查配置信息" class="header-anchor">#</a> 检查配置信息</h2> <p>除了使用记事本查看全局的配置信息之外，还可以运行如下的终端命令，快速的查看Git的全局配置信息:</p> <div class="language-bash extra-class"><pre class="language-bash"><code><span class="token number">1</span> <span class="token comment">#查看所有的全局配置项</span>
+<span class="token function">git</span> config <span class="token parameter variable">--list</span> <span class="token parameter variable">--global</span>
+<span class="token number">2</span>  <span class="token comment">#查看指定的全局配置项</span>
+<span class="token function">git</span> config user.name
+<span class="token function">git</span> config user.email
+</code></pre></div><h2 id="获取帮助信息"><a href="#获取帮助信息" class="header-anchor">#</a> 获取帮助信息</h2> <p>可以使用git help <code>&lt;verb&gt;</code>命令，无需联网即可在浏览器中打开帮助手册，例如:</p> <div class="language-git extra-class"><pre class="language-git"><code><span class="token comment">#要想打开git config命令的帮助手册</span>
+git help config
+git config -h
+</code></pre></div><h2 id="获取git仓库的两种方式"><a href="#获取git仓库的两种方式" class="header-anchor">#</a> 获取Git仓库的两种方式</h2> <p>将尚未进行版本控制的本地目录转换为Git仓库</p> <p>从其它服务器克隆一个已存在的 Git仓库
+以上两种方式都能够在自己的电脑上得到一个可用的 Git 仓库</p> <h2 id="在现有目录中初始化仓库"><a href="#在现有目录中初始化仓库" class="header-anchor">#</a> 在现有目录中初始化仓库</h2> <p>如果自己有一个尚未进行版本控制的项目目录，想要用Git 来控制它，需要执行如下两个步骤:在项目目录中，通过鼠标右键打开“Git Bash&quot;
+执行git init命令将当前的目录转化为Git仓库
+git init命令会创建一个名为.git的隐藏目录，这个.git目录就是当前项目的Git仓库，里面包含了初始的必要文件，这些文件是Git仓库的必要组成部分。</p> <h2 id="工作区中文件的4种状态"><a href="#工作区中文件的4种状态" class="header-anchor">#</a> 工作区中文件的4种状态</h2> <p>工作区中的每一个文件可能有4种状态，这四种状态共分为两大类，如图所示</p> <p><img src="./assets/img/git_.c33d9eae.png" alt="git"></p> <p>Git 操作的终极结果:让工作区中的文件都处于“未修改”的状态。</p> <h2 id="检查文件的状态"><a href="#检查文件的状态" class="header-anchor">#</a> 检查文件的状态</h2> <p>可以使用<code>git status</code>命令查看文件处于什么状态，例如:</p> <div class="language-bash extra-class"><pre class="language-bash"><code>$ <span class="token function">git</span> status
+On branch master
+
+No commits yet
+
+Untracked files:
+  <span class="token punctuation">(</span>use <span class="token string">&quot;git add &lt;file&gt;...&quot;</span> to include <span class="token keyword">in</span> what will be committed<span class="token punctuation">)</span>
+        Desktop.ini
+        index.html
+
+nothing added to commit but untracked files present <span class="token punctuation">(</span>use <span class="token string">&quot;git add&quot;</span> to track<span class="token punctuation">)</span>
+</code></pre></div><p>在状态报告中可以看到新建的index.html文件出现在Untracked files(未跟踪的文件）下面。
+未跟踪的文件意味着Git在之前的快照（提交）中没有这些文件;Git不会自动将之纳入跟踪范围，除非明确地告诉它“我需要使用Git跟踪管理该文件”。</p> <h2 id="以精简的方式显示文件状态"><a href="#以精简的方式显示文件状态" class="header-anchor">#</a> 以精简的方式显示文件状态</h2> <p>使用git status 输出的状态报告很详细，但有些繁琐。如果希望以精简的方式显示文件的状态，可以使用如下两条完全等价的命令，其中-s是--short的简写形式:</p> <div class="language-bash extra-class"><pre class="language-bash"><code><span class="token number">1</span><span class="token comment">#以精简的方式显示文件状态</span>
+<span class="token number">2</span> <span class="token function">git</span> status <span class="token parameter variable">-s</span>
+<span class="token number">3</span> <span class="token function">git</span> status <span class="token parameter variable">--short</span>
+</code></pre></div><p>未跟踪文件前面有红色的??标记，例如:</p> <div class="language-bash extra-class"><pre class="language-bash"><code>?? Desktop.ini
+?? index.html
+</code></pre></div><h2 id="跟踪新文件"><a href="#跟踪新文件" class="header-anchor">#</a> 跟踪新文件</h2> <p>使用命令git add开始跟踪一个文件。所以，要跟踪index.html文件，运行如下的命令即可:</p> <div class="language-bash extra-class"><pre class="language-bash"><code><span class="token function">git</span> <span class="token function">add</span> index.html
+</code></pre></div><p>此时再运行git status命令，会看到index.html文件在Changes to be committed这行的下面，说明已被跟踪，并处于暂存状态:</p> <p>以精简的方式显示文件的状态:
+<strong>新添加到暂存区中的文件前面有绿色的A标记</strong></p> <div class="language-bas extra-class"><pre class="language-text"><code>A  index.html
+?? Desktop.ini
+</code></pre></div><h2 id="提交更新"><a href="#提交更新" class="header-anchor">#</a> 提交更新</h2> <p>现在暂存区中有一个index.html文件等待被提交到Git 仓库中进行保存。可以执行git commit 命令进行提交，其中-m选项后面是本次的提交消息，用来对提交的内容做进一步的描述:</p> <div class="language-bash extra-class"><pre class="language-bash"><code>$ <span class="token function">git</span> commit <span class="token parameter variable">-m</span> <span class="token string">&quot;添加index.html文件&quot;</span>
+<span class="token punctuation">[</span>master <span class="token punctuation">(</span>root-commit<span class="token punctuation">)</span> aa9e8ec<span class="token punctuation">]</span> 添加index.html文件
+ <span class="token number">1</span> <span class="token function">file</span> changed, <span class="token number">0</span> insertions<span class="token punctuation">(</span>+<span class="token punctuation">)</span>, <span class="token number">0</span> deletions<span class="token punctuation">(</span>-<span class="token punctuation">)</span>
+ create mode <span class="token number">100644</span> index.html
+</code></pre></div><p>提交成功之后，会显示如下的信息:</p> <div class="language-bash extra-class"><pre class="language-bash"><code>$ <span class="token function">git</span> commit <span class="token parameter variable">-m</span> <span class="token string">&quot;添加index.html文件&quot;</span>
+<span class="token punctuation">[</span>master <span class="token punctuation">(</span>root-commit<span class="token punctuation">)</span> aa9e8ec<span class="token punctuation">]</span> 添加index.html文件
+ <span class="token number">1</span> <span class="token function">file</span> changed, <span class="token number">0</span> insertions<span class="token punctuation">(</span>+<span class="token punctuation">)</span>, <span class="token number">0</span> deletions<span class="token punctuation">(</span>-<span class="token punctuation">)</span>
+ create mode <span class="token number">100644</span> index.html
+</code></pre></div><p>提交成功之后，再次检查文件的状态，得到提示如下:</p> <div class="language-bash extra-class"><pre class="language-bash"><code>$ <span class="token function">git</span> status
+On branch master
+nothing to commit, working tree clean
+</code></pre></div><p>证明工作区中所有的文件都处于“未修改”的状态，没有任何文件需要被提交。</p> <h2 id="对已提交的文件进行修改"><a href="#对已提交的文件进行修改" class="header-anchor">#</a> 对已提交的文件进行修改</h2> <p>目前，index.html文件已经被Git跟踪，并且工作区和Git仓库中的index.html文件内容保持一致。当我们修改了工作区中 index.html的内容之后，再次运行git status和 git status -s命令，会看到如下的内容:</p> <div class="language-bash extra-class"><pre class="language-bash"><code>$ <span class="token function">git</span> status
+On branch master
+Changes not staged <span class="token keyword">for</span> commit:
+  <span class="token punctuation">(</span>use <span class="token string">&quot;git add &lt;file&gt;...&quot;</span> to update what will be committed<span class="token punctuation">)</span>
+  <span class="token punctuation">(</span>use <span class="token string">&quot;git restore &lt;file&gt;...&quot;</span> to discard changes <span class="token keyword">in</span> working directory<span class="token punctuation">)</span>
+        modified:   index.html
+
+no changes added to commit <span class="token punctuation">(</span>use <span class="token string">&quot;git add&quot;</span> and/or <span class="token string">&quot;git commit -a&quot;</span><span class="token punctuation">)</span>
+</code></pre></div><p>文件 index.html出现在Changes not staged for commit这行下面，说明已跟踪文件的内容发生了变化,但还没有放到暂存区。</p> <div class="language-bash extra-class"><pre class="language-bash"><code>$ <span class="token function">git</span> status <span class="token parameter variable">-s</span>
+ M index.html
+</code></pre></div><p>注意:<strong>修改过的、没有放入暂存区的文件前面有红色的M标记</strong>。</p> <h2 id="暂存已修改的文件"><a href="#暂存已修改的文件" class="header-anchor">#</a> 暂存已修改的文件</h2> <p>目前，工作区中的index.html文件已被修改，如果要暂存这次修改，需要再次运行git add 命令，这个命令是个多功能的命令，主要有如下3个功效:
+可以用它开始跟踪新文件</p> <p>把已跟踪的、且已修改的文件放到暂存区</p> <p>把有冲突的文件标记为已解决状态</p> <h2 id="提交已暂存的文件"><a href="#提交已暂存的文件" class="header-anchor">#</a> 提交已暂存的文件</h2> <p>再次运行git commit -m &quot;提交消息&quot;命令，即可将暂存区中记录的index.html的快照，提交到Git仓库中进行保存:</p> <div class="language-bash extra-class"><pre class="language-bash"><code>$ <span class="token function">git</span> commit <span class="token parameter variable">-m</span> <span class="token string">&quot;index已修改&quot;</span>
+<span class="token punctuation">[</span>master d730cf2<span class="token punctuation">]</span> index已修改
+ <span class="token number">1</span> <span class="token function">file</span> changed, <span class="token number">0</span> insertions<span class="token punctuation">(</span>+<span class="token punctuation">)</span>, <span class="token number">0</span> deletions<span class="token punctuation">(</span>-<span class="token punctuation">)</span>
+ rewrite index.html <span class="token punctuation">(</span><span class="token number">100</span>%<span class="token punctuation">)</span>
+</code></pre></div><p>检查工作区中文件状态</p> <div class="language-bash extra-class"><pre class="language-bash"><code>$ <span class="token function">git</span> status
+On branch master
+nothing to commit, working tree clean
+</code></pre></div><h2 id="撤销对文件的修改"><a href="#撤销对文件的修改" class="header-anchor">#</a> 撤销对文件的修改</h2> <p>撤销对文件的修改指的是:把对工作区中对应文件的修改，还原成Git仓库中所保存的版本。操作的结果:所有的修改会丢失，且无法恢复!危险性比较高，请慎重操作!</p> <div class="language-bash extra-class"><pre class="language-bash"><code>撤销对index.html文件的修改
+<span class="token function">git</span> checkout  -- index.html
+</code></pre></div><p><code>撤销操作的本质:用Git仓库中保存的文件，覆盖工作区中指定的文件。</code></p> <h2 id="向暂存区中一次性添加多个文件"><a href="#向暂存区中一次性添加多个文件" class="header-anchor">#</a> 向暂存区中一次性添加多个文件</h2> <p>如果需要被暂存的文件个数比较多，可以使用如下的命令，一次性将所有的新增和修改过的文件加入暂存区:</p> <div class="language-bash extra-class"><pre class="language-bash"><code>$ <span class="token function">git</span> <span class="token function">add</span> <span class="token builtin class-name">.</span>
+</code></pre></div><p>今后在项目开发中，会经常使用这个命令，将新增和修改过后的文件加入暂存区。</p> <h2 id="取消暂存的文件"><a href="#取消暂存的文件" class="header-anchor">#</a> 取消暂存的文件</h2> <p>如果需要从暂存区中移除对应的文件，可以使用如下的命令:</p> <div class="language-bash extra-class"><pre class="language-bash"><code><span class="token function">git</span> reset  HEAD 需要移除的文件名称
+</code></pre></div><p>移除单个 文件</p> <div class="language-bash extra-class"><pre class="language-bash"><code><span class="token function">git</span> reset HEAD index.css
+</code></pre></div><p>移除所有文件</p> <div class="language-bash extra-class"><pre class="language-bash"><code><span class="token function">git</span> reset HEAD <span class="token builtin class-name">.</span>
+</code></pre></div><h2 id="跳过使用暂存区域"><a href="#跳过使用暂存区域" class="header-anchor">#</a> 跳过使用暂存区域</h2> <p>Git标准的工作流程是<code>工作区</code>→<code>暂存区</code>→<code>Git仓库</code>，但有时候这么做略显繁琐，此时可以跳过暂存区，直接将工作区中的修改提交到Git仓库，这时候Git工作的流程简化为了<code>工作区</code>→<code>Git 仓库</code>。</p> <p>Git提供了一个跳过使用暂存区域的方式，只要在提交的时候，给<code>git commit</code>加上-a选项，Git就会自动把所有已经跟踪过的文件暂存起来一并提交，从而跳过git add步骤:</p> <div class="language-bash extra-class"><pre class="language-bash"><code><span class="token function">git</span> commit <span class="token parameter variable">-a</span> <span class="token parameter variable">-m</span> <span class="token string">&quot;描述消息&quot;</span>
+$ <span class="token function">git</span> commit <span class="token parameter variable">-a</span> <span class="token parameter variable">-m</span> <span class="token string">&quot;修改了index.css&quot;</span>
+<span class="token punctuation">[</span>master 3c22b30<span class="token punctuation">]</span> 修改了index.css
+ <span class="token number">1</span> <span class="token function">file</span> changed, <span class="token number">3</span> insertions<span class="token punctuation">(</span>+<span class="token punctuation">)</span>
+</code></pre></div><h2 id="移除文件"><a href="#移除文件" class="header-anchor">#</a> 移除文件</h2> <p>从Git仓库中移除文件的方式有两种:
+从Git仓库和工作区中同时移除对应的文件
+只从Git仓库中移除指定的文件，但保留工作区中对应的文件</p> <div class="language-bash extra-class"><pre class="language-bash"><code><span class="token number">1</span><span class="token comment">#从 Git仓库和工作区中同时移除index.js文件</span>
+<span class="token number">2</span> <span class="token function">git</span> <span class="token function">rm</span> <span class="token parameter variable">-f</span> index.js
+<span class="token number">3</span><span class="token comment">#只从Git仓库中移除index.css，但保留工作区中的index.csS 文件4 git rm --cached index.css</span>
+<span class="token number">4</span> <span class="token function">git</span> <span class="token function">rm</span> <span class="token parameter variable">--cached</span> index.css
+</code></pre></div><h2 id="忽略文件"><a href="#忽略文件" class="header-anchor">#</a> 忽略文件</h2> <p>一般我们总会有些文件无需纳入Git的管理，也不希望它们总出现在未跟踪文件列表。在这种情况下，我们可以创建一个名为.gitignore 的配置文件，列出要忽略的文件的匹配模式。
+文件.<code>gitignore</code>的格式规范如下:
+以<code>#开头</code>的是注释
+以<code>/结尾</code>的是目录以/开头防止递归
+以<code>!开头</code>表示取反
+可以使用<code>glob模式</code>进行文件和文件夹的匹配(glob指简化了的正则表达式)</p> <h2 id="glob模式"><a href="#glob模式" class="header-anchor">#</a> glob模式</h2> <p>所谓的glob模式是指简化了的正则表达式:星号*匹配零个或多个任意字符
+[abc]匹配任何一个列在方括号中的字符（此案例匹配一个a或匹配一个b或匹配一个c)问号﹖只匹配一个任意字符
+在方括号中使用短划线分隔两个字符，表示所有在这两个字符范围内的都可以匹配（比如[0-9]表示匹配所有0到9的数字)
+两个星号<strong>表示匹配任意中间目录（比如a/</strong>/z可以匹配 a/z 、 a/b/z或 a/b/c/z等)</p> <h2 id="gitignore文件的例子"><a href="#gitignore文件的例子" class="header-anchor">#</a> .gitignore文件的例子</h2> <div class="language-bash extra-class"><pre class="language-bash"><code><span class="token number">1</span> <span class="token comment">#忽略所有的 .a文件</span>
+<span class="token number">2</span> *.a
+<span class="token number">3</span>
+<span class="token number">4</span><span class="token comment">#但跟踪所有的lib.a，即便你在前面忽略了.a 文件</span>
+<span class="token number">5</span> <span class="token operator">!</span>lib.a
+<span class="token number">6</span>
+<span class="token number">7</span><span class="token comment">#只忽略当前目录下的 TODO文件，而不忽略subdir/TODO</span>
+<span class="token number">8</span> TODo
+<span class="token number">9</span>
+<span class="token number">10</span> <span class="token comment">#忽略任何目录下名为build的文件夹</span>
+<span class="token number">11</span> build/
+<span class="token number">12</span>
+<span class="token number">13</span> <span class="token comment">#忽略doc/notes.txt，但不忽略doc/server / arch.txt</span>
+<span class="token number">14</span> doc/*.txt
+<span class="token number">15</span>
+<span class="token number">16</span><span class="token comment">#忽略 doc/目录及其所有子目录下的.pdf文件</span>
+<span class="token number">17</span> doc/**/*.pdf
+</code></pre></div><h2 id="查看提交历史"><a href="#查看提交历史" class="header-anchor">#</a> 查看提交历史</h2> <p>如果希望回顾项目的提交历史，可以使用git log这个简单且有效的命令。</p> <div class="language-bash extra-class"><pre class="language-bash"><code>$ <span class="token function">git</span> log
+commit 079eb471c1aef0cebb6db020d610591e1215a7a1 <span class="token punctuation">(</span>HEAD -<span class="token operator">&gt;</span> master<span class="token punctuation">)</span>
+Author: maimai977977 <span class="token operator">&lt;</span><span class="token number">949022711</span>@qq.com<span class="token operator">&gt;</span>
+Date:   Thu Jul <span class="token number">7</span> <span class="token number">19</span>:06:44 <span class="token number">2022</span> +0800
+
+    创建了git忽略文件
+
+commit f479fb803cc5b2cfc5ba92398e6ab81b69a892e3
+Author: maimai977977 <span class="token operator">&lt;</span><span class="token number">949022711</span>@qq.com<span class="token operator">&gt;</span>
+Date:   Thu Jul <span class="token number">7</span> <span class="token number">18</span>:56:15 <span class="token number">2022</span> +0800
+
+    移除了index.js 和index.css
+
+commit 3c22b30861f037825633d3ad731cba891550992f
+Author: maimai977977 <span class="token operator">&lt;</span><span class="token number">949022711</span>@qq.com<span class="token operator">&gt;</span>
+Date:   Thu Jul <span class="token number">7</span> <span class="token number">18</span>:50:44 <span class="token number">2022</span> +0800
+
+    修改了index.css
+</code></pre></div><div class="language-bash extra-class"><pre class="language-bash"><code><span class="token number">1</span> <span class="token comment">#按时间先后顺序列出所有的提交历史，最近的提交排在最上面</span>
+<span class="token number">2</span> <span class="token function">git</span> log
+<span class="token number">3</span>
+<span class="token number">4</span><span class="token comment">#只展示最新的两条提交历史，数字可以按需进行填写</span>
+<span class="token number">5</span> <span class="token function">git</span> log <span class="token parameter variable">-2</span>
+<span class="token number">6</span>
+<span class="token number">7</span><span class="token comment">#在一行上展示最近两条提交历史的信息</span>
+<span class="token number">8</span> <span class="token function">git</span> log <span class="token parameter variable">-2</span> <span class="token parameter variable">--pretty</span><span class="token operator">=</span>oneline
+<span class="token number">10</span> <span class="token comment"># 在一行上展示最近两条提交历史的信息，并自定义输出的格式</span>
+<span class="token number">11</span><span class="token comment"># ‰h提交的简写哈希值‰an作者名字%ar作者修订日期，按多久以前的方式显示  %s提交说明</span>
+<span class="token number">12</span> <span class="token function">git</span> log <span class="token parameter variable">-2</span> <span class="token parameter variable">--pretty</span><span class="token operator">=</span>format: <span class="token string">&quot;%h | %an | %ar |%s&quot;</span>
+</code></pre></div><h2 id="回退到指定的版本"><a href="#回退到指定的版本" class="header-anchor">#</a> 回退到指定的版本</h2> <div class="language-bash extra-class"><pre class="language-bash"><code><span class="token number">1</span> <span class="token comment">#在一行上展示所有的提交历史</span>
+<span class="token number">2</span> <span class="token function">git</span> log <span class="token parameter variable">--pretty</span><span class="token operator">=</span>oneline
+<span class="token number">3</span>
+<span class="token number">4</span><span class="token comment"># 使用git reset --hard命令，根据指定的提交ID回退到指定版本</span>
+<span class="token number">5</span> <span class="token function">git</span> reset <span class="token parameter variable">--hard</span> <span class="token operator">&lt;</span>CommitID<span class="token operator">&gt;</span>
+<span class="token number">7</span><span class="token comment">#在旧版本中使用git reflog --pretty=oneline命令，查看命令操作的历史</span>
+<span class="token number">8</span> <span class="token function">git</span> reflog <span class="token parameter variable">--pretty</span><span class="token operator">=</span>oneline
+<span class="token number">9</span>
+<span class="token number">10</span> <span class="token comment">#再次根据最新的提交ID，跳转到最新的版本</span>
+<span class="token number">11</span> <span class="token function">git</span> reset <span class="token parameter variable">--hard</span> <span class="token operator">&lt;</span>CommitID<span class="token operator">&gt;</span>
+</code></pre></div><div class="language-bash extra-class"><pre class="language-bash"><code>$ <span class="token function">git</span> log <span class="token parameter variable">--pretty</span><span class="token operator">=</span>oneline
+079eb471c1aef0cebb6db020d610591e1215a7a1 <span class="token punctuation">(</span>HEAD -<span class="token operator">&gt;</span> master<span class="token punctuation">)</span> 创建了git忽略文件
+f479fb803cc5b2cfc5ba92398e6ab81b69a892e3 移除了index.js 和index.css
+3c22b30861f037825633d3ad731cba891550992f 修改了index.css
+b3641a6008df31cd4594cd8f2e3a92656c2e9318 新增idnex.js和index.css修改index'.html
+d730cf2c432a8021fa579a9e88100885016613d6 index已修改
+87222da682547f7ef8b1061ee391cc4a16dc456d 添加desktop
+aa9e8ecaa384c352ce18c73debbf4bf721ba81ad 添加index.html文件
+</code></pre></div><p>回退第一个版本</p> <div class="language-ba extra-class"><pre class="language-text"><code>$ git reset --hard aa9e8ecaa384c352ce18c73debbf4bf721ba81ad
+HEAD is now at aa9e8ec 添加index.html文件
+</code></pre></div><p>查看命令操作历史</p> <div class="language-bash extra-class"><pre class="language-bash"><code>$ <span class="token function">git</span> reflog <span class="token parameter variable">--pretty</span><span class="token operator">=</span>oneline
+aa9e8ec <span class="token punctuation">(</span>HEAD -<span class="token operator">&gt;</span> master<span class="token punctuation">)</span> HEAD@<span class="token punctuation">{</span><span class="token number">0</span><span class="token punctuation">}</span>: reset: moving to aa9e8ecaa384c352ce18c73debbf4bf721ba81ad
+079eb47 HEAD@<span class="token punctuation">{</span><span class="token number">1</span><span class="token punctuation">}</span>: commit: 创建了git忽略文件
+f479fb8 HEAD@<span class="token punctuation">{</span><span class="token number">2</span><span class="token punctuation">}</span>: commit: 移除了index.js 和index.css
+3c22b30 HEAD@<span class="token punctuation">{</span><span class="token number">3</span><span class="token punctuation">}</span>: commit: 修改了index.css
+b3641a6 HEAD@<span class="token punctuation">{</span><span class="token number">4</span><span class="token punctuation">}</span>: commit: 新增idnex.js和index.css修改index'.html
+d730cf2 HEAD@<span class="token punctuation">{</span><span class="token number">5</span><span class="token punctuation">}</span>: commit: index已修改
+87222da HEAD@<span class="token punctuation">{</span><span class="token number">6</span><span class="token punctuation">}</span>: commit: 添加desktop
+aa9e8ec <span class="token punctuation">(</span>HEAD -<span class="token operator">&gt;</span> master<span class="token punctuation">)</span> HEAD@<span class="token punctuation">{</span><span class="token number">7</span><span class="token punctuation">}</span>: commit <span class="token punctuation">(</span>initial<span class="token punctuation">)</span>: 添加index.html文件
+</code></pre></div><p>再次提交跳转到最新的版本</p> <div class="language-bash extra-class"><pre class="language-bash"><code><span class="token function">git</span> reset <span class="token parameter variable">--hard</span> 079eb47
+</code></pre></div></div> <footer class="page-edit"><!----> <div class="last-updated"><span class="prefix">更新时间:</span> <span class="time">31 分钟</span></div></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+      <a href="/./git/07_git.html" class="prev">
+        Git
+      </a></span> <span class="next"><a href="/./git/08_git命令.html">
+        Git命令
+      </a>
+      →
+    </span></p></div> </main></div><div class="global-ui"><!----></div></div>
+    <script src="./assets/js/app.01ce0958.js" defer></script><script src="./assets/js/2.e5f6830a.js" defer></script><script src="./assets/js/10.5442a1f3.js" defer></script>
+  </body>
+</html>
